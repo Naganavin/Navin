@@ -1,0 +1,54 @@
+*
+{
+    margin:0;
+    box-sizing: border-box;
+
+}
+.container
+{
+   
+    padding:50px;
+    border-radius: 10px;
+    margin:175px 550px;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px 3px #080808;
+    
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701312682.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+input[type="text"]
+{
+  margin-top: 8px;
+  height: 3rem;
+  width:280px;
+  border-radius: 8px;
+  border:2px solid white;
+  outline: none;
+  padding:10px;
+  font-size:16px;
+  margin-bottom:20px;
+}
+input:focus
+{
+    border-color: grey;
+    outline: 0;
+}
+input[type="button"]
+{
+    color:white;
+    background-color: rgba(41, 33, 165, 0.493);
+    width:200px;
+    height:2.2rem;
+    font-size: 15px;
+    border-radius: 8px;
+    border:none;
+}
