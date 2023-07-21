@@ -1,0 +1,138 @@
+*
+{
+box-sizing:border-box;
+padding: 0px;
+margin: 0px;
+}
+body
+{
+
+background-color:lightgray;
+background-image: url(https://www.shutterstock.com/shutterstock/videos/1076408321/thumb/1.jpg?ip=x480);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.gallery
+{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+.main
+{
+background:LAVENDER;
+width:300px;
+height:500px;
+margin:10px;
+border-radius:15px;
+
+}
+.image
+{
+width:300px;
+height:250px;
+background-color:teal;
+background-size:cover;
+background-position: center;
+border-radius:15px 15px 0 0;
+}
+.bikes
+{
+display:flex;
+width:96%;
+border: 3px solid rgb(13, 231, 231);
+border-radius: 15px;
+padding:10px;
+margin: 20px;
+justify-content: center;
+color: white;
+text-shadow:5px 5px 4px #11cde6;
+
+
+}
+
+.bike-1
+{
+background-image:url("https://www.rushlane.com/wp-content/uploads/2019/03/2019-kawasaki-ninja-h2r-india-delivery-first.jpg");
+}
+.bike-2
+{
+background-image:url("https://www.iamabiker.com/wp-content/uploads/2021/02/2021-suzuki-hayabusa-6.jpg");
+}
+.bike-3
+{
+background-image:url("https://bd.gaadicdn.com/processedimages/bmw/s1000rr/640X309/s1000rr63944bddea0d4.jpg");
+}
+.bike-4
+{
+background-image:url("https://www.motorbeam.com/wp-content/uploads/2022-Ducati-Panigale-V4-Price.jpg");
+}
+.bike-5
+{
+background-image:url("https://imgd.aeplcdn.com/0x0/bikewaleimg/ec/533/img/l/Honda-CBR1000RR-Fireblade-Front-three-quarter-1522.jpg");
+}
+.bike-6
+{
+background-image:url("https://bikereview.com.au/wp-content/uploads/2021/08/Bikereview-2021-Kawasaki-ZX-14RSE-24.jpg");
+}
+.bike-7
+{
+background-image:url("https://cdn.visordown.com/styles/amp_1200/s3/field/image/01%20RSV4%20Factory.jpg?itok=OO62Mhgq");
+}
+.bike-8
+{
+background-image:url("https://www.motorcyclespecs.co.za/Gallery%20%20A/MV%20Agusta%20F4%201000%20S%2005%20%202.jpg");
+}
+.bike-9
+{
+background-image:url("https://media.zigcdn.com/media/content/2019/Dec/78055397_1039875489697323_587336374001074176_o_720x540.jpg");
+}
+.bike-10
+{
+background-image:url("https://motobike.in/wp-content/uploads/2020/11/Kawasaki-Ninja-H2-SX-SE-Metallic-Graphite-Gray.jpg");
+}
+.bike-11
+{
+background-image:url("https://files.prokerala.com/bikes/images/thumbnail/full/ducati-panigale-v2-1661/ducati-panigale-v2-1661.jpg");
+}
+.bike-12
+{
+background-image:url("https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20210714041521_HDSportster.jpg&w=736&h=488&q=75&c=1");
+}
+.footer
+{
+margin-top:50px;
+text-align:center;
+}
+p
+{
+
+text-indent:50px;
+text-align:justify;
+padding: 5px;
+}
+.main:hover
+{
+background-color:rgb(88, 135, 235);
+}
+button
+{
+    border-radius: 4px;
+    color:white;
+    background-color: blue;
+    padding: 5px;
+
+    
+}
+h2{
+
+    text-align: center;
+
+}
+.main a{
+    text-decoration: none;
+    color :white
+}
