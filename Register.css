@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+    margin:auto;
+}
+body
+{
+    background-image:url("https://w0.peakpx.com/wallpaper/339/896/HD-wallpaper-library-concepts-stack-of-books-education-background-books-background-with-books-books-on-the-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    display:flex;
+}
+
+.container
+{
+   
+    width:400px;
+    border:2px solid rgb(63, 61, 61);
+    padding:25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.container input 
+{
+    width:100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(216, 226, 226);
+    border:2px solid rgb(7, 7, 7);
+}
+.container textarea
+{
+    width:100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(216, 226, 226);
+    border:2px solid rgb(7, 7, 7);
+}
+}
+.container label
+{
+    font-size: larger;
+}
+.button button
+{
+    color:#ffffff;
+    padding:8px;
+    border-radius: 3px;
+}
+
