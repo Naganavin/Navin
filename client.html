@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="client.css">
+    
+</head>
+<body>
+    <div class="container">
+             <form action="bx.html" method="POST" onclick="return validateForm()" >
+                <h2>Get Started For Registration</h2>
+            </br>
+                <div class="form-control">
+                    <label for="name">User Name</label>
+                    <input id="name" type="text" placeholder="Your name" onkeyup="validateName()"required>
+                    <span id="name-error"></span>
+                   </div>
+                   
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="abc@gmail.com" onkeyup="validateEmail()"required>
+                    <span id="email-error"></span>
+
+                </div>
+                <div class="form-control">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="number" placeholder="+91 XXX-XXX-XXXX"onkeyup="validatePhone()"required >
+                    <span id="phone-error"></span>
+                    
+                </div>
+                <div class="form-control">
+                    <label for="pwd">Password</label>
+                    <input id="pwd"type="Password" placeholder="Create your password"onkeyup="validatePwd()"required>
+                    <span id="pwd-error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="pwd1">Confirm Password</label>
+                    <input id="pwd1"type="Password"placeholder="Re-enter your password"onkeyup="validatePwd1()"required>
+                    <span id="pwd1-error"></span>
+                </div>
+                
+                    <button onclick="return validateForm()">Register</button>
+                    <span id="register-error"></span>
+            
+                
+                
+</form>
+        </div>
+    </div>
+    <script src="client.js"></script>
+    
+    
+</body>
+</html>
