@@ -1,0 +1,58 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+display:flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container {
+  width: 500px;
+  background-color: #ebe4e4;
+  padding: 20px;
+  border-style:dotted;
+  border-color:rgb(180, 45, 119); ;
+  border-radius: 5px;
+}
+label
+{
+  color:rgb(180, 45, 119);
+  font-size: 39px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddbdb;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+  
+input[type=submit] {
+    background-color: #0d1fc0;
+    color: white;
+  }
+  
+#message p {
+    font-size: 18px;
+  }
+
+.invalid {
+    color: red;
+  }
+  
+.invalid:before {
+   
+    content: "◉";
+  }
+
+.valid {
+    color: green;
+  }
+  
+.valid:before {
+    content: "✔";
+  }
