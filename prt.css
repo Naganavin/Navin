@@ -1,0 +1,119 @@
+html
+{
+scroll-behavior:auto;
+}
+.row1
+{
+ display:inline-flex;
+ padding:40px;
+
+}
+.row1 a
+{
+ margin-right:40px;
+ margin-left:40px;
+ font-size:16px;
+ text-decoration:none;
+}
+.row1 a:hover
+{
+ color:rgb(248, 165, 40);
+ transition:0.6s ease;
+}
+span
+{
+color:rgb(53, 50, 214);
+
+}
+.row2 a
+{
+ color:black;
+ text-decoration:none;
+}
+
+.head1
+{
+ background:repeating-conic-gradient(white,white);
+ border-radius:15px;
+ margin-bottom:10px;
+}
+.icon
+{
+ cursor:pointer;
+}
+.row3 h2
+{
+ text-align:center;
+}
+.row4 h3
+{
+ text-align:center;
+}
+.About .text-justify
+{
+ padding:15px;
+}
+
+.About
+{
+
+ border-radius:15px;
+ padding-top:2%;
+}
+.row4 h2
+{
+ text-align:center;
+}
+.row6 h3
+{
+ text-align:center;
+ 
+}
+.row6 .progress-bar
+{
+ color:black;
+ cursor:pointer;
+}
+.Skills
+{
+ background:white;
+ border-radius:15px;
+ padding-top: 5%;
+}
+.row7 h3
+{
+ text-align:center;
+}
+.Projects
+{
+	padding-top: 2%;
+}
+.card
+{
+	box-shadow:2px 2px 2px 2px rgb(179, 175, 175);
+	border-radius:5px;
+	overflow:hidden;
+	align-items:center;
+	margin:10px 10px;
+
+}
+.card img
+{
+	height:300px;
+	width: 100%;
+}
+.card a
+{
+	text-decoration: none;
+	color: white;
+}
+.contact 
+{
+	padding-top:5%;
+}
+.contact a
+{
+	text-decoration: none;
+	color: white;
+}
+
